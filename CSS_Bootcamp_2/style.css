@@ -1,0 +1,155 @@
+body{
+    background: linear-gradient(rgb(49, 128, 154),rgb(62, 164, 199));
+    
+}
+#card_1{
+    display: flex;
+}
+#card_2{
+    display: flex;
+}
+
+.biryani{
+    height: 355px;
+    width: 400px;
+    border: 1px solid rgb(217, 211, 211);
+    margin: 30px auto;
+    border-radius: 10px;
+    padding:10px;
+    position:relative;
+    background-color: rgb(210, 213, 215);
+    box-shadow: 0px 15px 17px rgba(0, 0, 0, 0.5);
+}
+.img{
+    border-radius:10px;
+    width:100%
+}
+.Head{
+    font-size:20px;
+    color: solid black;
+    padding-left:0cm;
+    padding-right:3px;
+    padding-top:5px;
+    padding-bottom:3px;  
+}
+.text{
+    padding-left:0cm;
+    padding-right:3px;
+    padding-top:2px;
+    padding-bottom:3px;
+}
+.logo{
+    height: 25px;
+    position:absolute;
+    left:0;
+    padding:10px; 
+}
+.context{
+    margin-left:80px;
+}
+.main{
+    position: relative;
+}
+.b1{
+    color:white;
+    background-color:rgb(97, 97, 222);
+    border:none;
+    width:130px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    margin:10px 0px;
+}
+.b2{
+    position: absolute;
+    color:rgb(0, 0, 0);
+    background-color:rgb(253, 253, 253);
+    border:none;
+    width:55px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    margin:10px 0px;
+    border-radius:3px;
+    margin-right:10px;
+}
+.b3{
+    position: absolute;
+    color:rgb(189, 182, 182);
+    background-color:rgb(112, 112, 129);
+    border:none;
+    width:80px;
+    position: absolute;
+    top:0;
+    left:0;
+    margin:10px 0px;
+    border-radius:3px;
+    margin-left:9px;
+}
+.torism{
+    height:400px;
+    width:650px;
+    margin:20px auto;
+    border:none;
+    background-image:url('/Vastuchitra_Stone-Chariot-Hampi.jpg');
+    background-size: cover;
+    padding:5px;
+    border-radius: 15px;
+    box-shadow: 5px 15px 10px rgba(0, 0, 0, 0.5);
+}
+.heading_2{
+    color:white;
+    margin-top:200px;
+    margin-left:100px;
+    margin-right:100px;
+    font-size:28px;
+}
+.paragraph_2{
+    color:white;
+    text-align: center;
+}
+.Explore_now{
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border:none;
+    color: black;
+    font-size:16px;
+    margin-top:10px;
+    margin-left:230px;
+}
+.profile{
+    height:350px;
+    width:500px;
+    margin:50px auto;
+    border-radius:20px 20px 0 0;
+    position:relative;
+    border:1px solid grey;
+    background:linear-gradient(rgb(25, 99, 104), rgb(53, 203, 191));
+    box-shadow: 0px 15px 17px rgba(0, 0, 0, 0.5);
+
+}
+.person{
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    top:0;
+    margin-top:73px;
+    margin-left:190px;
+    border:3px solid white;
+}
+.bg{
+    width:100%;
+    height:40%;
+    border-radius:20px 20px 0 0;
+}
+.name{
+    margin-top:100px;
+    text-align:center;
+}
+.disignation{
+    text-align:center;
+    font-size:18px;
+}
