@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(rgb(23, 23, 68), rgb(40, 40, 127));
+    display: flex;
+}
+html{
+    height:100%;
+}
+.card1{
+    background-color: #3ee88e;
+    margin:20px auto;
+    height: 200px;
+    width: 350px;
+    border-radius: 9px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 47px;
+    padding-left: 47px;
+    font-family: sans-serif;
+    box-shadow:0 15px 17px rgba(0, 0, 0, 0.5); 
+}
+.text{
+    font-size:13px;
+    padding-bottom: 10px;
+}
+.butn{
+    background-color: white;
+    border-radius: 20px;
+    border:none;
+    padding: 10px 37px;
+    font-size:17px;
+}
+.card2{
+    margin:20px auto;
+    height:330px;
+    width:440px;
+    border-radius:10px;
+    border: none;
+    background: linear-gradient(#3094ca,#25749e);
+    box-shadow:0 15px 17px rgba(0, 0, 0, 0.5); 
+}
+.upper_profile{
+    padding-left:25px;
+    padding-right:30px;
+    padding-bottom:5px;
+}
+.headingtext2{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: solid black;
+    padding-top: 27px;
+}
+.text2{
+    color:rgb(27, 0, 0);
+}
+
+.lower_profile{
+    border-top: 1px solid #92bfbfd9;
+    padding-top:5px;
+    padding-left:25px;
+    padding-right:30px;
+}
+.user{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    padding: 35px;
+    /*box-shadow: 3px 3px 3px;*/
+}
+.profile_end{
+    color: rgb(2, 8, 21);
+}
