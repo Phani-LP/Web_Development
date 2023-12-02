@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:rgb(42, 40, 40);" >
+    <div class="calculator">
+    <table>
+    <tr>
+        <td colspan="4">
+            <section type="text" id="display" value=""></section>
+        </td>
+    </tr>
+    <tr>
+        <td><button type="button" value="7" onclick="addNumber('7')">7</button></td>
+        <td><button type="button" value="8" onclick="addNumber('8')">8</button></td>
+        <td><button type="button" value="9" onclick="addNumber('9')">9</button></td>
+        <td><button type="button" value="+" onclick="addOperator('+')">+</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="4" onclick="addNumber('4')">4</button></td>
+        <td><button type="button" value="5" onclick="addNumber('5')">5</button></td>
+        <td><button type="button" value="6" onclick="addNumber('6')">6</button></td>
+        <td><button type="button" value="-" onclick="addOperator('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="1" onclick="addNumber('1')">1</button></td>
+        <td><button type="button" value="2" onclick="addNumber('2')">2</button></td>
+        <td><button type="button" value="3" onclick="addNumber('3')">3</button></td>
+        <td><button type="button" value="/" onclick="addOperator('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button type="button" value="." onclick="addOperator('.')">.</button></td>
+        <td><button type="button" value="0" onclick="addNumber('0')">0</button></td>
+        <td><button type="button" value="*" onclick="addOperator('*')">*</button></td>
+        <td><input type ="button" value="=" onclick="Evaluate(ans)"></td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <button type="button" class="C" onclick="clearDisplay()">clear</button>
+        </td>
+    </tr>
+    </table>
+    </div>
+</body>
+</html>
