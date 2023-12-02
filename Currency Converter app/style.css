@@ -1,0 +1,106 @@
+.from_class {
+    color: rgba(224, 240, 198, 0.886);
+}
+
+.to_class {
+    color: rgba(241, 255, 219, 0.886);
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+}
+
+#Result {
+    height: 20px;
+    width: 81%;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+    color: black;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(rgb(26, 26, 26), rgb(55, 55, 57));
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
+.heading {
+    font-size: x-large;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+
+.first {
+    width: 500px;
+    background-color: rgb(20, 19, 19);
+    padding:20px 20px 20px 10px;
+    border-radius: 10px;
+    color: rgb(230, 218, 203);
+    padding-left: 30px;
+    position: relative;
+    
+}
+
+.card {
+    display: flex;
+    gap: 50px;
+    
+}
+
+#Amount {
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 50%;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn1 {
+    background-color: rgb(0, 139, 9);
+    color: white;
+    padding: 10px 15px;
+    font-size: 17px;
+    border: none;
+}
+
+.btn2 {
+    background-color: darkred;
+    color: white;
+    padding: 10px 15px;
+    font-size: 17px;
+    border: none;
+    margin-left: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(50, 188, 12);
+}
+
+label {
+    display: block;
+}
