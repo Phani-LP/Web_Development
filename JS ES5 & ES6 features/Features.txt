@@ -1,0 +1,16 @@
+Below are the features introduced in ES5 version JavaScript.
+Array features:
+    isArray() - Determines if the passed value is an array.
+    map() - Creates a new array with the results of calling a provided function on every element in the array.
+    filter() - Creates a new array with all elements that pass the test implemented by the provided function.
+    forEach() - Executes a provided function once for each array element.
+    every() - Tests whether all elements in the array pass the provided function.
+    some() - Tests whether at least one element in the array passes the provided function.
+    indexOf() - Returns the first index at which a given element is found in the array, or -1 if it is not present.
+    lastIndexOf() - Returns the last index at which a given element is found in the array, or -1 if it is not present.
+
+JSON features:
+    stingify() - Converts a JavaScript object or value to a JSON string.
+
+Data features:
+    valueOf() - Returns the primitive value of the specified object.
