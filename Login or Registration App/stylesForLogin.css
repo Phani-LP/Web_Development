@@ -1,0 +1,83 @@
+.login {
+    height: 400px; /* Set to 100% of viewport height */
+    width: 320px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    padding: 50px;
+    background: rgba(0,0,0,.5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    color:#b8b8b8;
+}
+
+#wish{
+    color: rgb(156 163 183);
+    margin: auto;
+    background-color: rgb(23 27 41);
+    text-align: center;
+    border-radius: 6px;
+    width:180px;
+    padding:7px;
+    
+
+}
+#name{
+    padding:10px;
+    margin:10px auto 10px;
+    width:100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: large;
+    border: none;
+    border-bottom: 1px solid #856a6a;
+    outline: none;
+    background-color: transparent;
+    color:#b8b8b8;
+}
+
+#pass{
+    padding:10px;
+    margin:10px auto 10px;
+    width:100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: large;
+    border: none;
+    border-bottom: 1px solid #856a6a;
+    outline: none;
+    background: transparent;
+    color:#b8b8b8;
+}
+#show{
+    height:20px;
+    width:20px;
+    margin-right: 5px;
+}
+#btn{
+    background-color: #233953;
+    color:azure;
+    padding:7px 17px 7px;
+    border-radius: 6px;
+    font-size: large;
+    margin:20px 0 10px 100px;
+}
+#visibility{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    
+    background: linear-gradient(#233953, #243b55); 
+    margin: 0; /* Remove default body margin */
+}
+html{
+    height: 100%;
+}
+#signup{
+    text-decoration: none;
+    color:#85b3e9;
+}

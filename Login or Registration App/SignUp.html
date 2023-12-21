@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="stylesforSignUP.css">
+    <script src="app.js"></script>
+</head>
+<body >
+<div class="main_div">
+        <h3 id="heading">Create your account</h3>
+    <input type="email" id="cmail" placeholder="Email"><br>
+    <input type="tel" id="cphone" placeholder="Phone Number"><br>
+    <input type="text" id="cname" placeholder="Name"><br>
+
+<input id="cpass"  type="password" placeholder="Password">
+<input id="showme" type="checkbox" onclick="showmethepassword()"><br>
+    
+<label id="gender">Gender:
+    <input type="radio" id="m" name="gender" value="Male">
+    <label for="m">Male</label>
+    <input type="radio" id="f" name="gender" value="Female">
+    <label for="f">Female</label>
+    <input type="radio" id="NO" name="gender" value="Not_to_say">
+    <label for="NO">Not to say</label>
+</label><br>
+    <input type="button" id="btn" value="SIGN UP" onclick="registered()"><br>
+</div>
+</body>
+</html>

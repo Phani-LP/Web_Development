@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(rgb(18, 33, 72),rgb(22, 47, 108));
+}
+html{
+    height: 100%;
+}
+
+.main_div {
+    height: 475px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: blanchedalmond;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 6%;
+    padding: 30px;
+    font-size: 15px;
+    box-shadow : 0px 15px 25px rgba(0, 0, 0, 0.5);
+    position:relative;
+}
+
+input {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid #ffff;
+    margin: 10px;
+    border-radius: 5px;
+    width: 90%;
+    outline: none;
+    color: #ffff;
+}
+#showme{
+    height:20px;
+    width:20px;
+    margin-right: 5px;
+    position:absolute;
+    right:55px;
+    top:277px;
+}
+#name, #mail, #pass, #phone {
+    width: 90%;
+    box-sizing: border-box;
+    border:none;
+}
+
+#mail{
+    margin-top:50px;
+}
+#m, #f, #NO {
+    height: 20px;
+    width: 20px;
+}
+
+#gender {
+    width: auto;
+    font-size: large;
+    height: 10px;
+    text-align: center;
+    margin-left: 11px;
+    color: rgb(167, 157, 143);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btn{
+    margin-left: 95px;
+    background-color: #233953;
+    color:azure;
+    padding:7px 17px 7px;
+    border: 1px solid rgb(123, 130, 108);
+    font-size:20px;
+    width: 200px;
+    margin-left:120px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#heading{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:auto;
+    font-size: 30px;
+    margin: 10px 0 20px 75px;
+}

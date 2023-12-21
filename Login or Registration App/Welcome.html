@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('welcome2.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .welcome-container {
+            max-width: 650px;
+            margin: 50px auto;
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            /* Adding a semi-transparent white background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .welcome-container img{
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #welcome_heading {
+        /*font-family: OFL;*/
+        color: rgb(81, 7, 30);
+        }
+
+        #mysite, #github_profile {
+            text-decoration: none;
+            border-bottom: 1px solid gray;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="Patua_One/OFL.txt"> -->
+</head>
+<body>
+    <div class="welcome-container">
+        <img src="/welcome.jpg" alt="Welcome Image">
+        <h3 id="welcome_heading">Welcome</h3>
+        <p>Visit<a id="mysite" href="https://phani-lp.github.io/mysite/" target="_blank"> My site.</a>
+            Feel free to explore <a id="github_profile" href="https://github.com/Phani-LP" target="_blank">My work.</a>
+        </p>
+    </div>
+</body>
+</html>

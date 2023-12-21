@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        alert(`Default Name: Phani and Password: 12345`)
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Registration</title>
+    <link rel="stylesheet" href="stylesForLogin.css"></link>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div class="login">
+        <h2 id="wish">Hey!! there</h2><br>
+        <input id="name" type="text" placeholder="Name"><br>
+        <input type="password" id="pass" placeholder="Password"><br>
+        <section id="visibility">
+            <input id="show" type="checkbox" onclick="showpassword()">Show Password<br>
+        </section>
+        <button onclick="welcome()" id="btn">Sign In</button><br>
+        Didn't have account? <a href="SignUp.html" id="signup">Sign-Up</a> Here
+    </div>
+</body>
+</html>
