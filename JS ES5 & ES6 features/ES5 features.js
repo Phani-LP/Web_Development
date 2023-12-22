@@ -34,7 +34,7 @@ var output4 = myArray2.every(
 )
 console.log(output4)
 
-//some() -  return true or false
+//some() - return true or false
 var myArray3 = [99,15,4,7,95]
 var output5 = myArray3.every(
     function (element){
