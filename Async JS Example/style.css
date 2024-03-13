@@ -1,0 +1,17 @@
+#demo{
+    color:aliceblue;
+}
+
+#btn::focus{
+    border:1px gold;
+}
+
+#btn{
+    color:aliceblue;
+    background-color: brown;
+}
+
+body{
+    font-size: 20px;
+    background-color: rgb(28, 23, 67);
+}
