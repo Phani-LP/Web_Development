@@ -1,1 +1,1 @@
-## Here you can explore my web dev works in - HTML CSS JavaScript & React JS
+## Here you can explore my WebDev works in - HTML CSS JavaScript & ReactJS
